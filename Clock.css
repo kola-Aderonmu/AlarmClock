@@ -1,17 +1,43 @@
-#container-fluid{background: #12e2a466;}
+#container-fluid {
+    background: #12e2a466;
+}
 
-#clockName{font-family: agent red;margin-bottom: 10px;}
+#clockName {
+    font-family: agent red;
+    margin-bottom: 10px;
+}
 
 
-#headerColumn{margin:auto; text-align: center; background-color:rgba(24, 26, 26, 0.685); color:white; padding:20px; 
-font-family:Verdana, Geneva, Tahoma, sans-serif;}
+#headerColumn {
+    margin: auto;
+    text-align: center;
+    background-color: rgba(24, 26, 26, 0.685);
+    color: white;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-#LogoColumn{background-color: rgba(24, 26, 26, 0.685);}
+#LogoColumn {
+    background-color: rgba(24, 26, 26, 0.685);
+}
 
-#multipurposeClockSystem{border: 2px; margin-bottom: 1%; font-size:80%;font-family: ashley inline;}
+#multipurposeClockSystem {
+    border: 2px;
+    margin-bottom: 1%;
+    font-size: 80%;
+    font-family: ashley inline;
+}
 
-#clock1Column{border:1px solid rgb(246, 242, 242); background-color: rgb(247, 242, 242); text-align: center; 
-box-shadow: 15px 15px #cdccccf6; margin:30px; padding:50px; padding-bottom:20px; border-radius: 10px;}
+#clock1Column {
+    border: 1px solid rgb(246, 242, 242);
+    background-color: rgb(247, 242, 242);
+    text-align: center;
+    box-shadow: 15px 15px #cdccccf6;
+    margin: 30px;
+    padding: 50px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
 
 .Logo {
     text-align: right !important;
@@ -19,103 +45,314 @@ box-shadow: 15px 15px #cdccccf6; margin:30px; padding:50px; padding-bottom:20px;
     height: auto;
 }
 
-#weather{width: 100%;
-border-radius: 15px;
+#weather {
+    width: 100%;
+    border-radius: 15px;
 }
 
-input
-    
-
-
-
-#hoursMinutesSecondDiv{width:90%; margin-top:100px; margin:auto;border-top:4px;}
-#hourLabel{margin-right:4px;}
-#minuteLabel{margin-right:4px;}
-
-#clock{width:90%; margin:auto; font-size: 270%; font-weight: bold; font-family: digiface, 'Lucida Sans', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif'; 
-background-color:rgb(59, 62, 54); color:white; text-align: center;border-radius: 20px;}
-
-#DD-MM-YYYY{font-family: digiface; width:90%; border:1px sol321    id rgb(178, 175, 175); border-top:10px transparent burlywood; margin-bottom:5px; font-size:250%;}
-
-#clock3Column{border:1px solid rgb(232, 229, 229); background-color: white;
-box-shadow: 15px 15px #cdccccf6; margin:30px auto; padding:20px; padding-bottom:50px; text-align: center;}
-
-#exerciseClock{width:90%; margin:auto; font-size: 350%; font-weight: bold; font-family:'digiface', '+Lucida Sans', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color:rgb(59, 62, 54); color:white;
+input #hoursMinutesSecondDiv {
+    width: 90%;
+    margin-top: 100px;
+    margin: auto;
+    border-top: 4px;
 }
 
-#EX-DD-MM-YYYY{width:70%; border:1px solid black; border-top:15px solid white; margin:auto; font-size:270%;}
-
-#realTimeRatioDiv{width:90%; margin:auto; border:1px solid rgb(178, 175, 175);}
-
-#buttons{width:90%; border:none; border-top:1px solid white; margin:auto; padding:5px; padding-bottom:10px;}
-
-#exerciseTimeStart{width:8%; margin-top:2px; border:2px solid rgb(158, 199, 241); background-color:#12e2a466;
-color:black; padding:7px; border-radius:5px;font-size: xx-small;text-align: center;}
-
-#exerciseTimeReset{width:8%; margin-top:2px; border:2px solid rgb(158, 199, 241); background-color:#12e2a466;
-color:black; padding:7px; border-radius:5px;font-size: xx-small;text-align: center;}
-
-#exerciseTimeStop{width:8%; margin-top:2px; border:2px solid rgb(158, 199, 241); background-color:#12e2a466;
-color:black; padding:7px; border-radius:5px;font-size: xx-small;text-align: center;}
-
-
-#clock2ColumnNew{border:1px solid rgb(232, 229, 229); background-color: white;
-box-shadow: 15px 15px #cdccccf6; margin:30px; margin-right: 50px; margin-left: 60px; padding:20px; padding-bottom:20px; text-align: center;border-radius: 15px;}
-
-.stopwatchTime{width:90%; margin:auto; font-size: 300%; font-weight: bold; font-family:'digiface', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color:rgb(59, 62, 54); color:white;
+#hourLabel {
+    margin-right: 4px;
 }
 
-.stopwatchControls{width:90%; border:1px solid rgb(178, 175, 175); border-top:1px solid white; margin:auto; padding:5px; padding-bottom:10px;}
-
-#stopwatchStart{width:8%; margin-top:2px; border:2px solid rgb(158, 199, 241); background-color:#12e2a466;
-color:black; padding:7px; border-radius:5px;font-size: xx-small;}
-
-#stopwatchStop{width:8%; margin-top:2px; border:2px solid rgb(158, 199, 241); background-color:#12e2a466;
-color:black; padding:7px; font-size: xx-small; border-radius:5px;}
-
-#stopwatchReset{width:8%; margin-top:2px; border:2px solid rgb(158, 199, 241); background-color:#12e2a466;
-color:black; padding:7px; font-size: xx-small; border-radius:5px;}
-
-#clock3ColumnNew{border:1px solid rgb(232, 229, 229); background-color: white;
-box-shadow: 15px 15px #cdccccf6; margin:30px auto; padding:20px; padding-bottom:50px; text-align: center;}
-
-#countdown{width:90%; margin:auto; font-size: 300%; font-weight: bold; font-family:'Lucida Sans', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color:rgb(59, 62, 54); color:white;
+#minuteLabel {
+    margin-right: 4px;
 }
 
-.time{text-align: center; background-color:rgb(59, 62, 54); color:white;font-family:'digiface', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; border:1px solid rgb(59, 62, 54); font-weight: bold;}
+#clock {
+    width: 90%;
+    margin: auto;
+    font-size: 270%;
+    font-weight: bold;
+    font-family: digiface, 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    background-color: rgb(59, 62, 54);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
 
-.newTime{text-align: center; width:8%;font-family: digiface;}
+#DD-MM-YYYY {
+    font-family: digiface;
+    width: 90%;
+    border: 1px sol321 id rgb(178, 175, 175);
+    border-top: 10px transparent burlywood;
+    margin-bottom: 5px;
+    font-size: 250%;
+}
 
-#start{width:7%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
+#clock3Column {
+    border: 1px solid rgb(232, 229, 229);
+    background-color: white;
+    box-shadow: 15px 15px #cdccccf6;
+    margin: 30px auto;
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
 
-#reset{width:7%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
+#exerciseClock {
+    width: 90%;
+    margin: auto;
+    font-size: 350%;
+    font-weight: bold;
+    font-family: 'digiface', '+Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(59, 62, 54);
+    color: white;
+}
+
+#EX-DD-MM-YYYY {
+    width: 70%;
+    border: 1px solid black;
+    border-top: 15px solid white;
+    margin: auto;
+    font-size: 270%;
+}
+
+#realTimeRatioDiv {
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgb(178, 175, 175);
+}
+
+#buttons {
+    width: 90%;
+    border: none;
+    border-top: 1px solid white;
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#exerciseTimeStart {
+    width: 8%;
+    margin-top: 2px;
+    border: 2px solid rgb(158, 199, 241);
+    background-color: #12e2a466;
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: xx-small;
+    text-align: center;
+}
+
+#exerciseTimeReset {
+    width: 8%;
+    margin-top: 2px;
+    border: 2px solid rgb(158, 199, 241);
+    background-color: #12e2a466;
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: xx-small;
+    text-align: center;
+}
+
+#exerciseTimeStop {
+    width: 8%;
+    margin-top: 2px;
+    border: 2px solid rgb(158, 199, 241);
+    background-color: #12e2a466;
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: xx-small;
+    text-align: center;
+}
 
 
-#clock1ColumnNew{border:1px solid rgb(232, 229, 229); background-color: white;
-box-shadow: 15px 15px #cdccccf6; margin:30px auto; padding:20px; padding-bottom:50px; text-align: center;}
-    
-#alarmTimeInputField{width:90%; font-size:290%; text-align: center; font-family:'Lucida Sans', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top:5px; background-color:rgb(5, 87, 170); 
-color:white; border:1px solid rgb(5, 87, 170); }
+#clock2ColumnNew {
+    border: 1px solid rgb(232, 229, 229);
+    background-color: white;
+    box-shadow: 15px 15px #cdccccf6;
+    margin: 30px;
+    margin-right: 50px;
+    margin-left: 60px;
+    padding: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
 
-#controls{width:90%; border:1px solid rgb(178, 175, 175); border-top:1px solid white; margin:auto; padding:5px; padding-bottom:10px;}
+.stopwatchTime {
+    width: 90%;
+    margin: auto;
+    font-size: 300%;
+    font-weight: bold;
+    font-family: 'digiface', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(59, 62, 54);
+    color: white;
+}
+
+.stopwatchControls {
+    width: 90%;
+    border: 1px solid rgb(178, 175, 175);
+    border-top: 1px solid white;
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#stopwatchStart {
+    width: 8%;
+    margin-top: 2px;
+    border: 2px solid rgb(158, 199, 241);
+    background-color: #12e2a466;
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: xx-small;
+}
+
+#stopwatchStop {
+    width: 8%;
+    margin-top: 2px;
+    border: 2px solid rgb(158, 199, 241);
+    background-color: #12e2a466;
+    color: black;
+    padding: 7px;
+    font-size: xx-small;
+    border-radius: 5px;
+}
+
+#stopwatchReset {
+    width: 8%;
+    margin-top: 2px;
+    border: 2px solid rgb(158, 199, 241);
+    background-color: #12e2a466;
+    color: black;
+    padding: 7px;
+    font-size: xx-small;
+    border-radius: 5px;
+}
+
+#clock3ColumnNew {
+    border: 1px solid rgb(232, 229, 229);
+    background-color: white;
+    box-shadow: 15px 15px #cdccccf6;
+    margin: 30px auto;
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#countdown {
+    width: 90%;
+    margin: auto;
+    font-size: 300%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(59, 62, 54);
+    color: white;
+}
+
+.time {
+    text-align: center;
+    background-color: rgb(59, 62, 54);
+    color: white;
+    font-family: 'digiface', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(59, 62, 54);
+    font-weight: bold;
+}
+
+.newTime {
+    text-align: center;
+    width: 8%;
+    font-family: digiface;
+}
+
+#start {
+    width: 7%;
+    margin-top: 2px;
+    border: 2px solid rgb(5, 87, 170);
+    background-color: rgb(5, 87, 170);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#reset {
+    width: 7%;
+    margin-top: 2px;
+    border: 2px solid rgb(5, 87, 170);
+    background-color: rgb(5, 87, 170);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
 
 
-#setAlarmButton{margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:10px; border-radius:5px;}
+#clock1ColumnNew {
+    border: 1px solid rgb(232, 229, 229);
+    background-color: white;
+    box-shadow: 15px 15px #cdccccf6;
+    margin: 30px auto;
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
 
-#clearAlarmButton{margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:10px; border-radius:5px;}
+#alarmTimeInputField {
+    width: 90%;
+    font-size: 290%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    background-color: rgb(5, 87, 170);
+    color: white;
+    border: 1px solid rgb(5, 87, 170);
+}
 
-#footerRow{margin-top:30px;}
-#footerColumn{margin:auto; background-color:rgb(234, 125, 132); color:white; text-align: center; padding:10px;}
+#controls {
+    width: 90%;
+    border: 1px solid rgb(178, 175, 175);
+    border-top: 1px solid white;
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+
+#setAlarmButton {
+    margin-top: 2px;
+    border: 2px solid rgb(5, 87, 170);
+    background-color: rgb(5, 87, 170);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#clearAlarmButton {
+    margin-top: 2px;
+    border: 2px solid rgb(5, 87, 170);
+    background-color: rgb(5, 87, 170);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#footerRow {
+    margin-top: 30px;
+}
+
+#footerColumn {
+    margin: auto;
+    background-color: rgb(234, 125, 132);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
 
 
@@ -132,146 +369,378 @@ color:white; padding:10px; border-radius:5px;}
 
 
 
-@media screen and (max-width:1000px){
-#container-fluid{background: #e6e6e666;}
-
-#headerColumn{margin-top: 60px; margin-bottom: 70px; margin-left: auto; text-align: center; background-color:hsla(201, 61%, 71%, 0); color:white; padding:20px; 
-font-family:Verdana, Geneva, Tahoma, sans-serif;}
-    
-#multipurposeClockSystem{border:9px solid rgb(56, 57, 58); font-size: 100%;}
-
-#rcorners3 {
-    border-radius: 15px 50px;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
-}
-
-
-img {
-    width: 100px;
-    height: 70px;
-    border-radius: 50%;
-}
-
-
-@keyframes spinning {
-    from {
-        transform: rotate(0deg)
+@media screen and (max-width:1000px) {
+    #container-fluid {
+        background: #e6e6e666;
     }
 
-    to {
-        transform: rotate(360deg)
+    #headerColumn {
+        margin-top: 60px;
+        margin-bottom: 70px;
+        margin-left: auto;
+        text-align: center;
+        background-color: hsla(201, 61%, 71%, 0);
+        color: white;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-}
 
-.spin {
-    animation-name: spinning;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    /* linear | ease | ease-in | ease-out | ease-in-out */
-    animation-timing-function: linear;
-}
+    #multipurposeClockSystem {
+        border: 9px solid rgb(56, 57, 58);
+        font-size: 100%;
+    }
+
+    #rcorners3 {
+        border-radius: 15px 50px;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+    }
+
+
+    img {
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+
+    @keyframes spinning {
+        from {
+            transform: rotate(0deg)
+        }
+
+        to {
+            transform: rotate(360deg)
+        }
+    }
+
+    .spin {
+        animation-name: spinning;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        /* linear | ease | ease-in | ease-out | ease-in-out */
+        animation-timing-function: linear;
+    }
 
 
 
 
 
 
-#afcsc{border: 2px solid rgb(56, 57, 58); font-size: 100%;}
+    #afcsc {
+        border: 2px solid rgb(56, 57, 58);
+        font-size: 100%;
+    }
 
-#clock1Column{border:1px solid rgb(239, 10, 10); background-color: white; text-align: center; 
-box-shadow: 10px 10px #cdccccf6; margin: 30px auto; padding-top:20px;}
+    #clock1Column {
+        border: 1px solid rgb(239, 10, 10);
+        background-color: white;
+        text-align: center;
+        box-shadow: 10px 10px #cdccccf6;
+        margin: 30px auto;
+        padding-top: 20px;
+    }
 
-#hoursMinutesSecondDiv{width:90%; margin-top:20px; margin:auto; border:1px solid rgb(178, 175, 175); font-size:70%;padding-top: 20px;}
-#hourLabel{margin-right:4px;}
-#minuteLabel{margin-right:4px;}
+    #hoursMinutesSecondDiv {
+        width: 90%;
+        margin-top: 20px;
+        margin: auto;
+        border: 1px solid rgb(178, 175, 175);
+        font-size: 70%;
+        padding-top: 20px;
+    }
 
-#clock{width:90%; margin:auto; font-size: 250%; font-weight: bold; font-family:'Lucida Sans', 'Lucida Sans Regular', 
-    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-background-color:rgb(5, 87, 170); color:white;}
+    #hourLabel {
+        margin-right: 4px;
+    }
 
-#DD-MM-YYYY{width:90%; border:1px solid black; border-top:1px solid white; margin:auto;}
+    #minuteLabel {
+        margin-right: 4px;
+    }
 
-#clock3Column{border:1px solid rgb(232, 229, 229); background-color: white;
-box-shadow: 10px 10px #cdccccf6; margin:30px auto; padding:20px; text-align: center;}
-    
-#exerciseClock{width:90%; margin:auto; font-size: 250%; font-weight: bold; font-family:'Lucida Sans', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color:rgb(5, 87, 170); color:white;}
+    #clock {
+        width: 90%;
+        margin: auto;
+        font-size: 250%;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(5, 87, 170);
+        color: white;
+    }
 
-#realTimeRatioDiv{width:90%; font-size:50%; margin:auto; border:1px solid rgb(178, 175, 175);}
+    #DD-MM-YYYY {
+        width: 90%;
+        border: 1px solid black;
+        border-top: 1px solid white;
+        margin: auto;
+    }
 
-#realTimeRatioFieldHour{width:10%;}
-#realTimeRatioFieldMin{width:10%;}
-#realTimeRatioFieldSec{width:10%;}
+    #clock3Column {
+        border: 1px solid rgb(232, 229, 229);
+        background-color: white;
+        box-shadow: 10px 10px #cdccccf6;
+        margin: 30px auto;
+        padding: 20px;
+        text-align: center;
+    }
 
-#exerciseTimeRatioFieldHour{width:10%;}
-#exerciseTimeRatioFieldMin{width:10%;}
-#exerciseTimeRatioFieldSec{width:10%;}
+    #exerciseClock {
+        width: 90%;
+        margin: auto;
+        font-size: 250%;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(5, 87, 170);
+        color: white;
+    }
 
-#buttons{width:90%; border:1px solid rgb(178, 175, 175); margin:auto; padding:5px; padding-bottom:10px;}
+    #realTimeRatioDiv {
+        width: 90%;
+        font-size: 50%;
+        margin: auto;
+        border: 1px solid rgb(178, 175, 175);
+    }
 
-#exerciseTimeStart{width:18%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
+    #realTimeRatioFieldHour {
+        width: 10%;
+    }
 
-#exerciseTimeReset{width:18%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
+    #realTimeRatioFieldMin {
+        width: 10%;
+    }
 
-#exerciseTimeStop{width:18%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
+    #realTimeRatioFieldSec {
+        width: 10%;
+    }
 
-#clock2ColumnNew{border:1px solid rgb(232, 229, 229); background-color: white;
-box-shadow: 10px 10px #cdccccf6; margin:30px auto; padding:20px; text-align: center;}
-    
-.stopwatchTime{width:90%; margin:auto; font-size: 250%; font-weight: bold; font-family:'Lucida Sans', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color:rgb(5, 87, 170); color:white;}
-    
-.stopwatchControls{width:90%; border:1px solid rgb(178, 175, 175); margin:auto; padding:5px; padding-bottom:10px; border-top:1px solid white;}
+    #exerciseTimeRatioFieldHour {
+        width: 10%;
+    }
 
-#stopwatchStart{width:18%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
-    
-#stopwatchStop{width:18%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
-    
-#stopwatchReset{width:18%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
+    #exerciseTimeRatioFieldMin {
+        width: 10%;
+    }
 
-#clock3ColumnNew{border:1px solid rgb(232, 229, 229); background-color: white;
-box-shadow: 10px 10px #cdccccf6; margin:30px auto; padding:20px; text-align: center;}
-    
-#countdown{width:90%; margin:auto; font-size: 200%; font-weight: bold; font-family:'Lucida Sans', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color:rgb(5, 87, 170); color:white;}
-    
-.time{text-align: center;background-color:rgb(5, 87, 170); color:white;font-family:'Lucida Sans', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; border-top:1px solid white; border:1px solid rgb(5, 87, 170);}
+    #exerciseTimeRatioFieldSec {
+        width: 10%;
+    }
 
-#buttons{border-top:1px solid white;}
-    
-#start{width:18%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
-    
-#reset{width:18%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:7px; border-radius:5px;}
-    
-    
-#clock1ColumnNew{border:1px solid rgb(232, 229, 229); background-color: white;
-box-shadow: 10px 10px #cdccccf6; margin:30px auto; padding:20px; text-align: center;}
-        
-#alarmTimeInputField{width:90%; font-size:200%; text-align: center; font-family:'Lucida Sans', 'Lucida Sans Regular', 
-'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top:5px; background-color:rgb(5, 87, 170); 
-color:white; border:1px solid rgb(5, 87, 170); }
-    
-#controls{width:90%; border:1px solid rgb(178, 175, 175); border-top:1px solid white; margin:auto; padding:5px; padding-bottom:10px;}
-    
-    
-#setAlarmButton{width:33%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:10px; border-radius:5px;}
-    
-#clearAlarmButton{width:33%; margin-top:2px; border:2px solid rgb(5, 87, 170); background-color:rgb(5, 87, 170); 
-color:white; padding:10px; border-radius:5px;}
-    
-#footerRow{margin-top:10px;}
-#footerColumn{margin:auto; background-color:rgb(5, 87, 170); color:white; text-align: center; padding:10px;}
+    #buttons {
+        width: 90%;
+        border: 1px solid rgb(178, 175, 175);
+        margin: auto;
+        padding: 5px;
+        padding-bottom: 10px;
+    }
+
+    #exerciseTimeStart {
+        width: 18%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    #exerciseTimeReset {
+        width: 18%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    #exerciseTimeStop {
+        width: 18%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    #clock2ColumnNew {
+        border: 1px solid rgb(232, 229, 229);
+        background-color: white;
+        box-shadow: 10px 10px #cdccccf6;
+        margin: 30px auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .stopwatchTime {
+        width: 90%;
+        margin: auto;
+        font-size: 250%;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(5, 87, 170);
+        color: white;
+    }
+
+    .stopwatchControls {
+        width: 90%;
+        border: 1px solid rgb(178, 175, 175);
+        margin: auto;
+        padding: 5px;
+        padding-bottom: 10px;
+        border-top: 1px solid white;
+    }
+
+    #stopwatchStart {
+        width: 18%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    #stopwatchStop {
+        width: 18%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    #stopwatchReset {
+        width: 18%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    #clock3ColumnNew {
+        border: 1px solid rgb(232, 229, 229);
+        background-color: white;
+        box-shadow: 10px 10px #cdccccf6;
+        margin: 30px auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #countdown {
+        width: 90%;
+        margin: auto;
+        font-size: 200%;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(5, 87, 170);
+        color: white;
+    }
+
+    .time {
+        text-align: center;
+        background-color: rgb(5, 87, 170);
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-top: 1px solid white;
+        border: 1px solid rgb(5, 87, 170);
+    }
+
+    #buttons {
+        border-top: 1px solid white;
+    }
+
+    #start {
+        width: 18%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    #reset {
+        width: 18%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+
+    #clock1ColumnNew {
+        border: 1px solid rgb(232, 229, 229);
+        background-color: white;
+        box-shadow: 10px 10px #cdccccf6;
+        margin: 30px auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #alarmTimeInputField {
+        width: 90%;
+        font-size: 200%;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 5px;
+        background-color: rgb(5, 87, 170);
+        color: white;
+        border: 1px solid rgb(5, 87, 170);
+    }
+
+    #controls {
+        width: 90%;
+        border: 1px solid rgb(178, 175, 175);
+        border-top: 1px solid white;
+        margin: auto;
+        padding: 5px;
+        padding-bottom: 10px;
+    }
+
+
+    #setAlarmButton {
+        width: 33%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #clearAlarmButton {
+        width: 33%;
+        margin-top: 2px;
+        border: 2px solid rgb(5, 87, 170);
+        background-color: rgb(5, 87, 170);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #footerRow {
+        margin-top: 10px;
+    }
+
+    #footerColumn {
+        margin: auto;
+        background-color: rgb(5, 87, 170);
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
 
 }

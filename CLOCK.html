@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,76 +9,79 @@
     <link rel="stylesheet" href="Clock.css">
     <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.css">
 </head>
+
 <body>
-    
+
     <div class="container-fluid" id="container-fluid">
 
         <!--HEADER ROW-->
         <div class="row" id="row">
             <div class="col-11" id="headerColumn">
-                
+
                 <h1 id="multipurposeClockSystem">MULTIPURPOSE CLOCK SYSTEM</h1>
                 <h5 id="afcsc" style="font-size: 170%;font-family: ashley inline">AIRFORCE INSTITUTE OF TECHNOLOGY</h5>
             </div>
             <div class="col-1" id="LogoColumn">
-            
-            <img src="AFIT.png" id="rcorners3"
-                width="110px" height="100px"
-                 />
+
+                <img src="AFIT.png" id="rcorners3" width="110px" height="100px" />
             </div>
 
-       <!--REAL TIME ROW-->
-        <div class="row" id="clockRow">
-            <div class="col-3" id="clock1Column">
-                <h4 id="clockName">REAL TIME</h4>
-                <div id="hoursMinutesSecondDiv">
-                <label id="hourLabel">HOURS   |</label><label id="minuteLabel">MINUTES   |</label><label id="secondLabel">SECONDS</label>
-                </div>
-                <div id="clock">00 : 00 : 00</div>
-                <div id="hoursMinutesSecondDiv">
-                    <label id="hourLabel">DAY  |</label><label id="minuteLabel">MONTH  |</label><label id="secondLabel">YEAR</label>
-                </div>
-                <div id="DD-MM-YYYY">DD-MM-YYYY</div>
+            <!--REAL TIME ROW-->
+            <div class="row" id="clockRow">
+                <div class="col-3" id="clock1Column">
+                    <h4 id="clockName">REAL TIME</h4>
+                    <div id="hoursMinutesSecondDiv">
+                        <label id="hourLabel">HOURS |</label><label id="minuteLabel">MINUTES |</label><label
+                            id="secondLabel">SECONDS</label>
+                    </div>
+                    <div id="clock">00 : 00 : 00</div>
+                    <div id="hoursMinutesSecondDiv">
+                        <label id="hourLabel">DAY |</label><label id="minuteLabel">MONTH |</label><label
+                            id="secondLabel">YEAR</label>
+                    </div>
+                    <div id="DD-MM-YYYY">DD-MM-YYYY</div>
 
-       
-                
-                <!--
+
+
+                    <!--
                 <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local" id="alarmTimeInputField">
                <div class="controls" id="controls">
                     <button onclick="setAlarm()" class="button set-alarm" id="setAlarmButton">Set alarm</button>
                     <button onclick="clearAlarm()" class="button clear-alarm" id="clearAlarmButton">Stop alarm</button>
                 </div>
                  -->
-            </div>
-                   
-        
-        
-        <!--STOPWATCH ROW-->
-        
-            <div class="col-4" id="clock2ColumnNew">
-            
-                <div class="stopwatch">
+                </div>
+
+
+
+                <!--STOPWATCH ROW-->
+
+                <div class="col-4" id="clock2ColumnNew">
+
+                    <div class="stopwatch">
                         <h4 style="margin-top:0px;font-family: agent red;">STOPWATCH</h4>
                         <div id="hoursMinutesSecondDiv">
-                            <label id="hourLabel">HOURS  |</label><label id="minuteLabel">MINUTES  |</label><label id="secondLabel">SECONDS  |</label>
+                            <label id="hourLabel">HOURS |</label><label id="minuteLabel">MINUTES |</label><label
+                                id="secondLabel">SECONDS |</label>
                         </div>
                         <div class="stopwatchTime">00 : 00 : 00</div>
-                       
-                            <div class="stopwatchControls">
-                                <button id="stopwatchStart">Start</button>
-                                <button id="stopwatchStop">Stop</button>
-                                <button id="stopwatchReset">Reset</button>
-                            </div>
-                </div>
-                
-            </div>
 
-            <div class="col-3" id="clock2ColumnNew">
-            
+                        <div class="stopwatchControls">
+                            <button id="stopwatchStart">Start</button>
+                            <button id="stopwatchStop">Stop</button>
+                            <button id="stopwatchReset">Reset</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-3" id="clock2ColumnNew">
+
                     <div class="weather" style="margin-left: 0%;border-radius: 15px;">
                         <h4 style="margin-top:0px;font-family: agent red;">WEATHER FOR THE WEEK</h4>
-                    
-                        <a class="weatherwidget-io" style="width: 100%; height:110%;" href="https://forecast7.com/en/9d087d40/abuja/" data-label_1="ABUJA" data-label_2="WEATHER"
+
+                        <a class="weatherwidget-io" style="width: 100%; height:110%;"
+                            href="https://forecast7.com/en/9d087d40/abuja/" data-label_1="ABUJA" data-label_2="WEATHER"
                             data-days="5" data-theme="mountains">ABUJA WEATHER</a>
                         <script>
                             !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
@@ -85,29 +89,29 @@
 
 
                     </div>
-            
-            
-            
-                    
+
+
+
+
+                </div>
+
             </div>
 
-        </div>    
 
 
-
-        <div class="col-5" id="clock1ColumnNew">
+            <div class="col-5" id="clock1ColumnNew">
                 <h4>REMINDER</h4>
-            
+
                 <div id="hoursMinutesSecondDiv">
                     <label id="hourLabel">HOURS</label><label id="minuteLabel">MINUTES</label><label
                         id="secondLabel">SECONDS</label>
                 </div>
-            
+
                 <div id="clock"></div>
-            
+
                 <!--<label id="hourLabel">HOURS</label><label id="minuteLabel">MINUTES</label><label id="secondLabel">SECONDS</label>
-                                        --><input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local"
-                    id="alarmTimeInputField">
+                                        --><input onchange="setAlarmTime(this.value)" name="alarmTime"
+                    type="datetime-local" id="alarmTimeInputField">
                 <div id="hoursMinutesSecondDiv" style="margin-top:5px;">
                     <label id="hourLabel">HOURS</label><label id="minuteLabel">MINUTES</label><label
                         id="secondLabel">SECONDS</label>
@@ -116,37 +120,38 @@
                     <button onclick="setAlarm()" class="button set-alarm" id="setAlarmButton">Set alarm</button>
                     <button onclick="clearAlarm()" class="button clear-alarm" id="clearAlarmButton">Stop alarm</button>
                 </div>
+            </div>
+
+
         </div>
-                
-            
-    </div>
-    
 
 
 
 
 
-        
-            
-            
-
-
-    
 
 
 
 
 
-         <div class="row" id="footerRow">
+
+
+
+
+
+
+
+        <div class="row" id="footerRow">
             <div class="col-12" id="footerColumn">
                 Multipurpose-Clock-System V.1.1.0. Copyright@Software Dev Team, DIT, HQ NAF
             </div>
         </div>
         <script src="JS/Clock.js"></script>
-    
+
     </div>
 
 
-    
+
 </body>
+
 </html>
